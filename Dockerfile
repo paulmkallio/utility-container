@@ -19,6 +19,8 @@ RUN apt-get install -y ssh
 RUN apt-get install -y nano vim
 RUN apt-get install -y stress
 RUN apt-get install -y lynx
+# Added 2022.04.12
+RUN apt-get install -y nmap
 
 # Run the container in the background
 ENTRYPOINT ["tail"]
