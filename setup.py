@@ -15,7 +15,7 @@ setup_cfg = {o:cfg[o] for o in cfg_keys}
 
 if len(sys.argv)>1 and sys.argv[1]=='version':
     print(setup_cfg['version'])
-    exit()
+    sys.exit()
 
 licenses = {
     'apache2': ('Apache Software License 2.0','OSI Approved :: Apache Software License'),

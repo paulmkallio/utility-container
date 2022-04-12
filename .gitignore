@@ -154,3 +154,4 @@ Snakefile
 
 # any scripts in the notebooks (see 03_workflow.ipynb)
 workflow.sh
+.dccache
